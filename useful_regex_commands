@@ -1,0 +1,2 @@
+#find all static variables in c and cc files
+find . -type f \( -name '*.c' -o -name '*.cpp' \) |xargs grep "^[ \t]*static[ \t]*.*=" 
